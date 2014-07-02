@@ -1,8 +1,8 @@
-# Guías de Gnu/Linux
+## Guías de Gnu/Linux
 
-## Guías
+### Guías
 
-  * **LDAP** Los manuales contienen
+  * **LDAP** 
 
     * ```Introducción``` Introducciòn al servidor de directorios *LDAP*
     * ```Instalación``` Guía para instalar el servidor ldap "slapd"
@@ -17,3 +17,8 @@
     * ```Practica 3:``` Instalación del sistema MRBS y configurar la autenticaciónmediante LDAP.
     * ```Practica 4:``` Instalación del sistema MRBS y configurar la autenticaciónmediante LDAp.
 
+  * **PostgreSQL**
+  
+    * ```Guia 1``` Instalaciòn de la base de datos postgres 9.1
+      * Crear usuarios
+      * Crear Base de Datos
