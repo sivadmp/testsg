@@ -42,6 +42,7 @@ Ejemplo:
 // Mensaje resultante ```" Mjrioeeep@nant@ssca@aerd@"```
 // Este seria nuestro cuadrado , se eliminan los espacios y se agregan @
 
+| a  |  b | c  | d  | e  |
 |:--:|:--:|:--:|:--:|:--:|
 | M  | e  | n  | s  | a
 | j  | e  | a  | s  | e
@@ -49,11 +50,20 @@ Ejemplo:
 | i  | p  | t  | a  | d
 | o  | @  | @  | @  | @
 
-+------+------+------+-----+
-| test | test | test | te  !
-+------+------+------+-----+
-| test | test | test | te  !
-+------+------+------+-----+
+
+| M  | e  | n  | s  | a
+| j  | e  | a  | s  | e
+| r  | e  | n  | c  | r
+| i  | p  | t  | a  | d
+| o  | @  | @  | @  | @
+
++---+------------+-------------+
+|   |     A      |      B      |
++---+------------+-------------+
+| 1 | Type       | MySQL       |
+| 2 | Header     | Spreadsheet |
+| 3 | Auto Align | On          |
++---+------------+-------------+
 
 | Left align | Right align | Center align |
 |:-----------|------------:|:------------:|
