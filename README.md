@@ -43,12 +43,17 @@ Ejemplo:
 // Este seria nuestro cuadrado , se eliminan los espacios y se agregan @
 
 |:--:|:--:|:--:|:--:|:--:|
-|M| e | n | s | a
-| j | e | a | s | e
-| r | e | n | c | r
-| i | p | t | a |d
-| o | @ | @ | @ |@
+| M  | e  | n  | s  | a
+| j  | e  | a  | s  | e
+| r  | e  | n  | c  | r
+| i  | p  | t  | a  | d
+| o  | @  | @  | @  | @
 
++------+------+------+-----+
+| test | test | test | te  !
++------+------+------+-----+
+| test | test | test | te  !
++------+------+------+-----+
 
 | Left align | Right align | Center align |
 |:-----------|------------:|:------------:|
