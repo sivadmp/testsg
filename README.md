@@ -33,13 +33,13 @@ Ordene el mensaje ingresado, de manera que forme un cuadrado perfecto
 (el número de filas es igual al número de columnas). No debe considerar
 los espacios en blanco.
 En caso de que el número de letras no den un cuadrado perfecto, añada el
-carácter de relleno "@". Finalmente, lea el mensaje de arriba abajo y de
+carácter de relleno ```"@"```. Finalmente, lea el mensaje de arriba abajo y de
 izquierda a derecha. A
 continuación se presenta un
 
 Ejemplo:
-// Mensaje original " Mensaje a ser encriptado"
-// Mensaje resultante " Mjrioeeep@nant@ssca@aerd@"
+// Mensaje original ```" Mensaje a ser encriptado"```
+// Mensaje resultante ```" Mjrioeeep@nant@ssca@aerd@"```
 // Este seria nuestro cuadrado , se eliminan los espacios y se agregan @
 
 |:--:|:--:|:--:|:--:|:--:|
@@ -48,3 +48,13 @@ Ejemplo:
 | r | e | n | c | r
 | i | p | t | a |d
 | o | @ | @ | @ |@
+
+
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     
+| column     |      column |    column    
+| will       |        will |     will     
+| be         |          be |      be      
+| left       |       right |    center    
+| aligned    |     aligned |   aligned
