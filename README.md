@@ -23,3 +23,23 @@
       * Crear usuarios
       * Crear Base de Datos
 
+
+# Elecciones presidenciales 2014
+
+Sistema para mostrar graficamente las encuestas
+
+## Tecnologías
+
+Se utilizo las siguientes tecnologias:
+
+* Html5
+* php
+* Librería [D3.js](http://d3js.org/) para generar los gráficos
+
+## Scripts
+
+* ```generarDatosBolivia.sh``` (Obsoleto) Script que permite unir los datos de los archivos .TSV en uno solo "Bolivia.TSV"
+
+## Otros
+
+Los colores utilizados para los partidos políticos fueron obtenidos de [Franjas.pdf](http://www.oep.org.bo/images/elecciones_2014/SorteoDeFranjas2014.pdf)
