@@ -87,7 +87,7 @@ Framework:
 * expressJS?
 
 Utilitarios de desarrollo: ?
-* experimental: "CoffeeScript":http://coffeescript.org/ lenguaje de programación que se compila en JavaScript
+* experimental: [CoffeeScript](http://coffeescript.org/ lenguaje de programación que se compila en JavaScript)
 
 Entorno servidor:
 * servidor de aplicaciones: node.js
@@ -120,11 +120,13 @@ Es una metodología que permite analizar el comportamiento de la organización a
 * [Cuteflow](http://www.cuteflow.org/index.html)
 * [Joget Workflow](http://www.joget.org/)
 * [Orchestra](http://orchestra.ow2.org/xwiki/bin/view/Main/)
+* [Comparación suites I](http://openwebstuff.com/best-open-source-bpm-solutions/)
+* [Comparación suites II](http://holisticsecurity.wordpress.com/2011/07/21/jbpm-bonita-intalio-processmaker-activiti-que-bpm-suite-uso/)
 
 ### Java
 
 Para el lenguaje Java existen muchas herramientas, la mas conocida es la librería que es desarrollada por RedHat JBPM
-Una lista completa de librerías se encuentra disponible en "workflow-engines":http://java-source.net/open-source/workflow-engines
+Una lista completa de librerías se encuentra disponible en [workflow-engines](http://java-source.net/open-source/workflow-engines)
 
 ### *PHP*
 
@@ -152,17 +154,12 @@ Una lista completa de librerías se encuentra disponible en "workflow-engines":h
 * http://sourceforge.net/projects/maymyo/
 * http://pyke.sourceforge.net/
 
-### Doc. consultada
-
-* [Comparación](http://openwebstuff.com/best-open-source-bpm-solutions/)
-* [Comparación](http://holisticsecurity.wordpress.com/2011/07/21/jbpm-bonita-intalio-processmaker-activiti-que-bpm-suite-uso/)
-
 ## Versionamiento
 
 * versionar todo con git
-** utilizar el modelo gitflow: http://nvie.com/posts/a-successful-git-branching-model/
-** código en gitlab.geo.gob.bo, luego eventualmente en github.com, bitbucket o softwarelibre.gob.bo según necesidades
-** proceso de integración de los commits en la rama principal: con "pull request", revisada y aceptada por los lideres del proyecto. Salvo excepción nunca aceptar su propia PR.
+ * utilizar el modelo gitflow: http://nvie.com/posts/a-successful-git-branching-model/
+ * código en gitlab.geo.gob.bo, luego eventualmente en github.com, bitbucket o softwarelibre.gob.bo según necesidades
+ * proceso de integración de los commits en la rama principal: con "pull request", revisada y aceptada por los lideres del proyecto. Salvo excepción nunca aceptar su propia PR.
 
 ## Gestión de proyecto
 
@@ -174,10 +171,10 @@ Una lista completa de librerías se encuentra disponible en "workflow-engines":h
 * despliegue continuo: cada rama tiene su versión de demostración disponible a cada instante en el servidor de prueba (http://css-tricks.com/continuous-integration-continuous-deployment/)
 * sistema de "automated rollback": poder volver a una versión anterior del código y de los datos
 * redmine/chiliproject/openproject? Debe tener:
-** autenticación LDAP o SSO
-** integración con gitlab y github
-** wiki, issues, gantt, archivos (o relación con owncloud para archivos)
-** acceso remoto a las tareas por caldav
+ * autenticación LDAP o SSO
+ * integración con gitlab y github
+ * wiki, issues, gantt, archivos (o relación con owncloud para archivos)
+ * acceso remoto a las tareas por caldav
 
 ## Calidad de código
 
@@ -198,8 +195,8 @@ Pruebas:
 ## Documentación
 
 * poner mínimamente los archivos siguientes a la raíz del proyecto:
-** README.md: presentación del proyecto, vínculos a otras docs
-** INSTALL.md: documentación de instalación / compilación / despliegue del proyecto, con requisitos y vínculos a las librerías externas utilizadas
+ * README.md: presentación del proyecto, vínculos a otras docs
+ * INSTALL.md: documentación de instalación / compilación / despliegue del proyecto, con requisitos y vínculos a las librerías externas utilizadas
 * documentación de desarrollo: generación automática con comentarios en el código (tipo doxygen, sphinx, rdoc, javadoc) + instrucciones en INSTALL.md para compilar la documentación
 * comentarios en el código: aparte de los comentarios de documentación, solo poner comentarios cuando es necesario para entender un bloque de código complicado. Sino, el código basta.
 
