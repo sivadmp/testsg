@@ -112,7 +112,16 @@ Para la parte de la vistas, se utilizara los frameworks JavaScript
 Es una metodología que permite analizar el comportamiento de la organización a través de los procesos.
 “Se llama Gestión de procesos de negocio (Business Process Management o BPM en inglés) a la metodología corporativa cuyo objetivo es mejorar la eficiencia a través de la gestión de los procesos de negocio, que se deben modelar, organizar, documentar y optimizar de forma continua.
 
-### *Java*
+
+### Suites
+
+* [Bonita](http://www.bonitasoft.com/)
+* [Processmaker](http://www.processmaker.com/community-2)
+* [Cuteflow](http://www.cuteflow.org/index.html)
+* [Joget Workflow](http://www.joget.org/)
+* [Orchestra](http://orchestra.ow2.org/xwiki/bin/view/Main/)
+
+### Java
 
 Para el lenguaje Java existen muchas herramientas, la mas conocida es la librería que es desarrollada por RedHat JBPM
 Una lista completa de librerías se encuentra disponible en "workflow-engines":http://java-source.net/open-source/workflow-engines
@@ -143,19 +152,10 @@ Una lista completa de librerías se encuentra disponible en "workflow-engines":h
 * http://sourceforge.net/projects/maymyo/
 * http://pyke.sourceforge.net/
 
-### *Suites*
+### Doc. consultada
 
-* "Bonita":http://www.bonitasoft.com/ 
-* "Processmaker":http://www.processmaker.com/community-2
-* "Cuteflow":http://www.cuteflow.org/index.html
-* "Joget Workflow":http://www.joget.org/
-* "Orchestra":http://orchestra.ow2.org/xwiki/bin/view/Main/
-
-### *Doc. consultada*
-
-* http://holisticsecurity.wordpress.com/2011/07/21/jbpm-bonita-intalio-processmaker-activiti-que-bpm-suite-uso/
-* http://openwebstuff.com/best-open-source-bpm-solutions/
-
+* [Comparación](http://openwebstuff.com/best-open-source-bpm-solutions/)
+* [Comparación](http://holisticsecurity.wordpress.com/2011/07/21/jbpm-bonita-intalio-processmaker-activiti-que-bpm-suite-uso/)
 
 ## Versionamiento
 
