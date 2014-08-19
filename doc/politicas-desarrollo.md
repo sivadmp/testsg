@@ -5,9 +5,9 @@ La Unidad de Innovación y Desarrollo de la ADSIB sigue esta política para todo
 ## Metodología de programación
 
 * solo desarrollaremos en lenguajes que tengan estas características:
-** Eficiencia para el proyecto: tiempo para llegar al producto final
-** Difundido: facilidad de mantenimiento por otras personas
-** Entorno servidor: facilidad de desplegar en servidores
+ * Eficiencia para el proyecto: tiempo para llegar al producto final
+ * Difundido: facilidad de mantenimiento por otras personas
+ * Entorno servidor: facilidad de desplegar en servidores
 
 * modular: desarrollar por módulos, y con APIs REST / estándar / web servicio
 * KISS: poner solo lo necesario en cada módulo. Si no es absolutamente necesaria una funcionalidad, no ponerla. En efecto, una vez desarrollada y utilizada, una funcionalidad dificilmente puede sacada, y entonces se tiene que hacer el mantenimiento para siempre (ie. menor deuda de código posible en cada proyecto).
@@ -18,86 +18,75 @@ La Unidad de Innovación y Desarrollo de la ADSIB sigue esta política para todo
 
 ### PHP
 
-Framework:
-* entre phalcon y laravel
-
-Utilitarios de desarrollo:
-* Tests unitarios: phpunit
-* Integración continua: jenkins + sonar
-* Deploy: jenkins
-
-Entorno servidor:
-* Versión de PHP: >=5.3
-* Servidor de aplicación: Apache2
+* Framework:
+ * entre phalcon y laravel
+* Utilitarios de desarrollo:
+ * Tests unitarios: phpunit
+ * Integración continua: jenkins + sonar
+ * Deploy: jenkins
+* Entorno servidor:
+ * Versión de PHP: >=5.3
+ * Servidor de aplicación: Apache2
 
 ### Java
 
-Framework de desarrollo:
-* Controladores: Spring
-* ORM (mapeo de objetos relacional): hibernate
-
-Utilitarios de desarrollo:
-* gestión de proyecto: maven
-* tests unitarios: JUnit
-* tests de integración referencial: ???
-* integración continua: Jenkins + Sonar
-
-Entorno servidor:
-* versión maquina virtual: openjdk 6 o 7
-* servidor de aplicación: Tomcat
+* Framework de desarrollo:
+ * Controladores: Spring
+ * ORM (mapeo de objetos relacional): hibernate
+* Utilitarios de desarrollo:
+ * gestión de proyecto: maven
+ * tests unitarios: JUnit
+ * tests de integración referencial: ???
+ * integración continua: Jenkins + Sonar
+* Entorno servidor:
+ * versión maquina virtual: openjdk 6 o 7
+ * servidor de aplicación: Tomcat
 
 ### Ruby
 
-Framework de desarrollo:
-* ruby on rails
-
-Gemas de desarrollo:
-* imágenes: carrierwave
-* autenticación de usuarios: devise
-* autorización de usuarios: cancan
-* preprocesadores/templates de HTML: haml
-
-Utilitarios de desarrollo:
-* gestión de proyecto: gema bundler
-* tests unitarios: gema rspec
-* tests de integración referencial: gema rspec
-* deploy: gema capistrano
-
-Entorno servidor:
-* versión de ruby: >=2
-* servidor de aplicación: passenger con Apache2 (o passenger con nginx, o unicorn)
+* Framework de desarrollo:
+ * ruby on rails
+* Gemas de desarrollo:
+ * imágenes: carrierwave
+ * autenticación de usuarios: devise
+ * autorización de usuarios: cancan
+ * preprocesadores/templates de HTML: haml
+* Utilitarios de desarrollo:
+ * gestión de proyecto: gema bundler
+ * tests unitarios: gema rspec
+ * tests de integración referencial: gema rspec
+ * deploy: gema capistrano
+* Entorno servidor:
+ * versión de ruby: >=2
+ * servidor de aplicación: passenger con Apache2 (o passenger con nginx, o unicorn)
 
 ### Python
 
-Experimental
-
-Framework:
-* django?
-* falcon?
-
-Entorno servidor:
-* version de python: >=2.7
-* servidor de aplicaciones: unicorn, passenger?
+* Experimental
+ * Framework:
+  * django?
+  * falcon?
+* Entorno servidor:
+ * version de python: >=2.7
+ * servidor de aplicaciones: unicorn, passenger?
 
 ### Javascript
 
 Experimental
 
-Framework:
-* expressJS?
-
-Utilitarios de desarrollo: ?
-* experimental: [CoffeeScript](http://coffeescript.org/ lenguaje de programación que se compila en JavaScript)
-
-Entorno servidor:
-* servidor de aplicaciones: node.js
+* Framework:
+ * expressJS?
+* Utilitarios de desarrollo: ?
+ * experimental: [CoffeeScript](http://coffeescript.org/ lenguaje de programación que se compila en JavaScript)
+* Entorno servidor:
+ * servidor de aplicaciones: node.js
 
 ## Vistas
 
-Para la parte del diseño, utilizar el framework bootstrap
-Para la parte de la vistas, se utilizara los frameworks JavaScript
-* AngularJS
-* ...
+* Para la parte del diseño, utilizar el framework bootstrap
+* Para la parte de la vistas, se utilizara los frameworks JavaScript
+ * AngularJS
+ * ...
 
 ## Bases de datos
 
@@ -210,7 +199,7 @@ Pruebas:
 
 ## Interfaz de usuario
 
-* para sitios públicos: aplicar el principio de "mejora progresiva" (progressive enhancement): por ejemplo estructura HTML funcional sin CSS ni Javascript, y la experiencia del usuario mejora si su navegador permite CSS y JS - Unobtrusive Javascript ("Javascript no obstructivo":http://es.wikipedia.org/wiki/JavaScript_no_obstructivo)
+* para sitios públicos: aplicar el principio de "mejora progresiva" (progressive enhancement): por ejemplo estructura HTML funcional sin CSS ni Javascript, y la experiencia del usuario mejora si su navegador permite CSS y JS - Unobtrusive Javascript [Javascript no obstructivo](http://es.wikipedia.org/wiki/JavaScript_no_obstructivo)
 * diseñar la interfaz con "mockups" en formato digital - pencil project
 * experimental: CSS: utilizar preprocesadores (SCSS, SASS, STYLUS, KNACSS, LESS)
 * experimental: CSS: unidades "em/rem" para las dimensiones
