@@ -22,7 +22,8 @@
     * ```Guia 1``` Instalaciòn de la base de datos postgres 9.1
       * Crear usuarios
       * Crear Base de Datos
-
+ 
+ * [Politicas de desarrollo](doc/politicas-desarrollo.md)
 
 # Elecciones presidenciales 2014
 
