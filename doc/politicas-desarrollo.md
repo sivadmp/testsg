@@ -8,11 +8,10 @@ La Unidad de Innovación y Desarrollo de la ADSIB sigue esta política para todo
  * Eficiencia para el proyecto: tiempo para llegar al producto final
  * Difundido: facilidad de mantenimiento por otras personas
  * Entorno servidor: facilidad de desplegar en servidores
-
 * modular: desarrollar por módulos, y con APIs REST / estándar / web servicio
 * KISS: poner solo lo necesario en cada módulo. Si no es absolutamente necesaria una funcionalidad, no ponerla. En efecto, una vez desarrollada y utilizada, una funcionalidad dificilmente puede sacada, y entonces se tiene que hacer el mantenimiento para siempre (ie. menor deuda de código posible en cada proyecto).
 * elegir tecnologías web, o justificar si se hace desarrollo para una plataforma en particular (Android, Linux...)
-* por omisión para sistemas cliente/servidor: Modelo - Vista - Controlador
+* por omisión para sistemas cliente/servidor: ```Modelo - Vista - Controlador```
 
 ## Lenguajes del lado del servidor
 
@@ -60,19 +59,16 @@ La Unidad de Innovación y Desarrollo de la ADSIB sigue esta política para todo
  * versión de ruby: >=2
  * servidor de aplicación: passenger con Apache2 (o passenger con nginx, o unicorn)
 
-### Python
+### Python (Experimental)
 
-* Experimental
- * Framework:
-  * django?
-  * falcon?
+* Framework:  
+ * django 
+ * falcon
 * Entorno servidor:
  * version de python: >=2.7
  * servidor de aplicaciones: unicorn, passenger?
 
-### Javascript
-
-Experimental
+### Javascript (Experimental)
 
 * Framework:
  * expressJS?
@@ -83,18 +79,18 @@ Experimental
 
 ## Vistas
 
-* Para la parte del diseño, utilizar el framework bootstrap
+* Para la parte del diseño, utilizar el framework ```bootstrap```
 * Para la parte de la vistas, se utilizara los frameworks JavaScript
  * AngularJS
  * ...
 
 ## Bases de datos
 
-* Se debe respetar los principios de: eficiencia, ancha difusión y entorno servidor + respetar la norma ANSI SQL 92.
+* Se debe respetar los principios de: eficiencia, ancha difusión y entorno servidor + respetar la norma ```ANSI SQL 92```.
 * Modelo de datos: por omisión versionar todo (inmutable). No hacerlo si es insulso.
 * Contar con un archivo SQL con los datos de la BD, para ser importados en ambientes de test.
-* Opciones: MariaDB/MySQL, PostgreSQL 9.0, SQLite
-* experimental: CouchDB, MongoDB, Redis
+* Opciones: ```MariaDB/MySQL, PostgreSQL 9.0, SQLite```
+* experimental: ```CouchDB, MongoDB, Redis```
 
 ## BPM Business Process Management
 
@@ -146,9 +142,9 @@ Una lista completa de librerías se encuentra disponible en [workflow-engines](h
 ## Versionamiento
 
 * versionar todo con git
- * utilizar el modelo gitflow: http://nvie.com/posts/a-successful-git-branching-model/
+ * utilizar el modelo [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
  * código en gitlab.geo.gob.bo, luego eventualmente en github.com, bitbucket o softwarelibre.gob.bo según necesidades
- * proceso de integración de los commits en la rama principal: con "pull request", revisada y aceptada por los lideres del proyecto. Salvo excepción nunca aceptar su propia PR.
+ * proceso de integración de los commits en la rama principal: con ```pull request```, revisada y aceptada por los lideres del proyecto. Salvo excepción nunca aceptar su propia PR.
 
 ## Gestión de proyecto
 
@@ -184,15 +180,15 @@ Pruebas:
 ## Documentación
 
 * poner mínimamente los archivos siguientes a la raíz del proyecto:
- * README.md: presentación del proyecto, vínculos a otras docs
- * INSTALL.md: documentación de instalación / compilación / despliegue del proyecto, con requisitos y vínculos a las librerías externas utilizadas
+ * ```README.md```: presentación del proyecto, vínculos a otras docs
+ * ```INSTALL.md```: documentación de instalación / compilación / despliegue del proyecto, con requisitos y vínculos a las librerías externas utilizadas
 * documentación de desarrollo: generación automática con comentarios en el código (tipo doxygen, sphinx, rdoc, javadoc) + instrucciones en INSTALL.md para compilar la documentación
 * comentarios en el código: aparte de los comentarios de documentación, solo poner comentarios cuando es necesario para entender un bloque de código complicado. Sino, el código basta.
 
 ## Licencia
 
 * todo con licencia LPG Bolivia: http://www.softwarelibre.gob.bo/licencia.php
-* poner un archivo LICENSE.md a la raíz del proyecto, con el contenido de la licencia.
+* poner un archivo ```LICENSE.md``` a la raíz del proyecto, con el contenido de la licencia.
 * solo se pueden utilizar librerías de software libre.
 * colocar la licencia, en cada archivo del proyecto (siguiendo la misma lógica de la mayoría de los proyectos OpenSource).
 * solo usar imágenes, fuentes, etc. de licencia abierta
